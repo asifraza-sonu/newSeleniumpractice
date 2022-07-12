@@ -26,7 +26,10 @@ public class LogInPageTitleValidationTest extends Base {
 	public void validationOfTheWebPageTitle() throws FileNotFoundException, IOException {
 		Assert.assertEquals(driver.getTitle(), prop.getProperty("LogInPageTitle"));
 		log.debug("Title of the page has been validated");
-		log.error("error check");
+		log.error("error check1");
+		log.error("error check2");
+		log.error("error check3");
+		log.error("error check4");
 	}
 
 	@AfterTest
